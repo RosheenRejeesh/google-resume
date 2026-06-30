@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+    <title>Rosheen Rejeesh</title>
+
+    <style>
+    /* Template level */
+body {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+#resume {
+    max-width: 800px;
+    width: 100%;
+    padding: 24px 48px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    border-width: 1px;
+    border-style: none none solid none;
+    margin: 10px 0 2.5px 0;
+}
+
+section {
+    margin: 3px 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    margin-top: 8px;
+}
+
+.item>.item-header {
+    float: left;
+    display: block;
+}
+
+.item>.item-header>.item-header-title {
+    font-weight: bold;
+}
+
+.item>.item-header>.item-header-subtitle {
+    font-style: italic;
+}
+
+.item>.item-details {
+    float: right;
+    text-align: right;
+}
+
+.item>.item-details>.item-details-title {
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Section specific */
+/* basics */
+.vertical-separator {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.vertical-separator:not(:first-child) {
+    border-left: 1px solid #000;
+    text-align: center;
+}
+
+/* Set some print settings. */
+@media print {
+    @page {
+        size: portrait;
+        margin: 5mm 5mm;
+    }
+    #resume {
+        max-width: 100%;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    body,
+    html,
+    #resume {
+        margin: 0px;
+        padding: 0px;
+    }
+    .controls {
+        display: none;
+    }
+}
+
+    </style>
+
+    </head>
+    <body>
+
+    <div id="resume">
+        <section id="basics">
+            <h1>Rosheen Rejeesh</h1>
+            <div class="contact centered">
+        <span class="vertical-separator"><a href="mailto:rosheenrb@gmail.com">rosheenrb@gmail.com</a></span><span class="vertical-separator">(+60) 16 206 9710</span><span class="vertical-separator">Shah Alam, MY</span><span class="vertical-separator"><a href="https://www.linkedin.com/in/rosheen-rejeesh-0682aa257">www.linkedin.com/in/rosheen-rejeesh-0682aa257</a></span>    </div>
+            <div class="summary">
+                <h2>Summary</h2>
+                <p>Software engineer fresh graduate with hands-on experience developing responsive web applications using HTML, CSS, JavaScript, React.js, Vue.js, Python, and Django. Experienced in frontend development, API integration, bug fixing, and database-driven applications through internships and academic projects. Strong foundation in Git-based workflows, Agile development practices, and building scalable software solutions.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="item">
+                <li>
+                    <strong>Frontend</strong>: HTML, CSS, JavaScript, React.js, Vue.js, Nuxt.js, Tailwind CSS
+                </li>
+                <li>
+                    <strong>Backend</strong>: Python, Django, Flask, Java
+                </li>
+                <li>
+                    <strong>Database</strong>: SQL, MongoDB, Firebase
+                </li>
+                <li>
+                    <strong>Tools</strong>: Git, Docker, Trello, ClickUp
+                </li>
+            </ul>
+        </section>
+        <section id="work">
+            <h2>Work Experience</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Tata Consultancy Services
+                </div>
+                <div class="item-header-subtitle">
+                    Software Engineering Intern
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Bangsar South, Kuala Lumpur
+                </div>
+                <div class="date">
+                    Nov 2024 — Feb 2025
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Collaborated with social enterprises to develop automation tools and resolve software bugs.</li>
+                        <li>Converted raw data into user-friendly PDF reports to improve business operations.</li>
+                        <li>Researched and implemented Facebook Messenger chatbots and WordPress livestream plugins.</li>
+                        <li>Developed secure login and signup functionality.</li>
+                        <li>Implemented custom password validation on Wix signup pages.</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Swipey
+                </div>
+                <div class="item-header-subtitle">
+                    Software Engineering Intern
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Bangsar South, Kuala Lumpur
+                </div>
+                <div class="date">
+                    Nov 2023 — Feb 2024
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Collaborated with the CEO, product managers, designers, and engineers to deliver software solutions.</li>
+                        <li>Developed responsive frontend interfaces using React.js.</li>
+                        <li>Implemented backend services, REST APIs, and databases using Python and Django.</li>
+                    </ul>
+        </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Monash University Malaysia
+                </div>
+                <div class="item-header-subtitle">
+                    Bachelor of Software Engineering (Honours)
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="date">
+                    Oct 2021 — Nov 2025
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </section>
+    </body>
+</html>
+<a href="./resume.pdf" target="_blank"><p>Download PDF</p></a>
